@@ -21,7 +21,7 @@ public class FactoryImplTestAdd {
 
     public FactoryImplTestAdd(int op1, int op2, int expResult) {
         this.op1=op1;
-        this.op2=op2;
+        this.op2=op1;
         this.expResult=expResult;
     }
 
