@@ -33,7 +33,7 @@ public class CalculatorTestSuccessful {
         System.out.println("----- START OF Verify function testSum in CalculatorTestSuccessful class -------------");
         int result = calculator.sum(3, 9);
 
-        Assert.assertEquals(7, result);
+        Assert.assertEquals(12, result);
         System.out.println("----- END OF Verify function testSum in CalculatorTestSuccessful class -------------");
     }
 
@@ -68,7 +68,7 @@ public class CalculatorTestSuccessful {
     public void testSubstraction() {
         int result = 10 - 3;
 
-        Assert.assertTrue(result == 9);
+        Assert.assertTrue(result == 7);
     }
 
 }
